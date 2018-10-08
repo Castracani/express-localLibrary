@@ -22,7 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //Set up mongoose connection
 var mongoose = require('mongoose');
-var mongoDB = 'mongodb://castra:x64673h58@ds019678.mlab.com:19678/heroku_4k0k8r9b';
+var mongoDB = 'mongodb://lily:x64673h58%40@ds247852.mlab.com:47852/heroku_s2zlcp7j';
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
